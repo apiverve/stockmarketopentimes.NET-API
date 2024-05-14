@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.StockMarketOpenTimes</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/stockmarketopentimes</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Stock Market Open Times is a simple tool for getting the open times of the stock market. It returns the open times of the stock market for each day of the week.</Description>
+    <RepositoryUrl>https://github.com/apiverve/stockmarketopentimes-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>stock market open times; stock market open times api; stock market open times tool; stock market open times software; stock market open times service; stock market open times library; stock market open times sdk; stock market open times code; stock market open times script; stock market open times program; stock market open times application; stock market open times app; stock market open times utility; stock market open times helper; stock market open times helper tool; stock market open times helper software; stock market open times helper service; stock market open times helper library; stock market open times helper sdk; stock market open times helper code; stock market open times helper script; stock market open times helper program; stock market open times helper application; stock market open times helper app; stock market open times helper utility; stock market open times helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
