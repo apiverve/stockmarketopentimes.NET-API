@@ -98,8 +98,8 @@ if(response.error != null) {
     "exchange": "NYSE",
     "fullName": "New York Stock Exchange",
     "isOpen": false,
-    "openingTime": "2024-05-12 09:30:00",
-    "closingTime": "2024-05-12 16:00:00"
+    "openingTime": "2024-05-15 09:30:00",
+    "closingTime": "2024-05-15 16:00:00"
   }
 }
 ```
