@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new stockmarketopentimesQueryOptions {
+var queryOptions = new StockMarketOpenTimesQueryOptions {
   exchange = "nyse"
 };
 ```
@@ -97,10 +97,11 @@ if(response.error != null) {
     "timezone": "America/New_York",
     "exchange": "NYSE",
     "fullName": "New York Stock Exchange",
-    "isOpen": true,
-    "openingTime": "2024-07-17 09:30:00",
-    "closingTime": "2024-07-17 16:00:00"
-  }
+    "isOpen": false,
+    "openingTime": "2024-08-14 09:30:00",
+    "closingTime": "2024-08-14 16:00:00"
+  },
+  "code": 200
 }
 ```
 
