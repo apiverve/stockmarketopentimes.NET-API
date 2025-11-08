@@ -4,42 +4,43 @@ using Newtonsoft.Json;
 
 namespace APIVerve
 {
-public class data
-{
-    [JsonProperty("timezone")]
-    public string timezone { get; set; }
+    /// <summary>
+    /// Data data
+    /// </summary>
+    public class Data
+    {
+        [JsonProperty("timezone")]
+        public string Timezone { get; set; }
 
-    [JsonProperty("exchange")]
-    public string exchange { get; set; }
+        [JsonProperty("exchange")]
+        public string Exchange { get; set; }
 
-    [JsonProperty("fullName")]
-    public string fullName { get; set; }
+        [JsonProperty("fullName")]
+        public string FullName { get; set; }
 
-    [JsonProperty("isOpen")]
-    public bool isOpen { get; set; }
+        [JsonProperty("isOpen")]
+        public bool IsOpen { get; set; }
 
-    [JsonProperty("openingTime")]
-    public string openingTime { get; set; }
+        [JsonProperty("openingTime")]
+        public string OpeningTime { get; set; }
 
-    [JsonProperty("closingTime")]
-    public string closingTime { get; set; }
+        [JsonProperty("closingTime")]
+        public string ClosingTime { get; set; }
 
-}
+    }
+    /// <summary>
+    /// API Response object
+    /// </summary>
+    public class ResponseObj
+    {
+        [JsonProperty("status")]
+        public string Status { get; set; }
 
-public class ResponseObj
-{
-    [JsonProperty("status")]
-    public string status { get; set; }
+        [JsonProperty("error")]
+        public object Error { get; set; }
 
-    [JsonProperty("error")]
-    public object error { get; set; }
+        [JsonProperty("data")]
+        public Data Data { get; set; }
 
-    [JsonProperty("data")]
-    public data data { get; set; }
-
-    [JsonProperty("code")]
-    public int code { get; set; }
-
-}
-
+    }
 }
